@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinQuake", "WinQuake.vcxproj", "{9144B568-B3FF-4C19-BB6F-ED9909A65B7C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AA4E733-B7D3-428D-AD25-A5C0C380C33A} = {5AA4E733-B7D3-428D-AD25-A5C0C380C33A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gas2masm", "gas2masm\gas2masm.vcxproj", "{5AA4E733-B7D3-428D-AD25-A5C0C380C33A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9144B568-B3FF-4C19-BB6F-ED9909A65B7C}.Debug|x86.ActiveCfg = Debug|Win32
+		{9144B568-B3FF-4C19-BB6F-ED9909A65B7C}.Debug|x86.Build.0 = Debug|Win32
+		{9144B568-B3FF-4C19-BB6F-ED9909A65B7C}.Release|x86.ActiveCfg = Release|Win32
+		{9144B568-B3FF-4C19-BB6F-ED9909A65B7C}.Release|x86.Build.0 = Release|Win32
+		{5AA4E733-B7D3-428D-AD25-A5C0C380C33A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5AA4E733-B7D3-428D-AD25-A5C0C380C33A}.Debug|x86.Build.0 = Debug|Win32
+		{5AA4E733-B7D3-428D-AD25-A5C0C380C33A}.Release|x86.ActiveCfg = Release|Win32
+		{5AA4E733-B7D3-428D-AD25-A5C0C380C33A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
